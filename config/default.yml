@@ -1,0 +1,15 @@
+# config/default.yml
+
+server:
+  port: 5000
+
+email:
+  service: 'YourEmailService'
+  auth:
+    user: 'YourEmailAddress'
+    pass: 'YourEmailPassword'
+
+twilio:
+  accountSid: 'YourTwilioAccountSID'
+  authToken: 'YourTwilioAuthToken'
+  fromNumber: 'YourTwilioPhoneNumber'
